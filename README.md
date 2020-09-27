@@ -7,6 +7,7 @@
 * modern-java-in-action : [모던 자바 인 액션]
 * spring : [스프링 5 레시피]
 * spring-4.0 : [스프링 4.0 프로그래밍]
+* javascript/core : [코어 자바스크립트]
 
 ---
 
