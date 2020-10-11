@@ -5,8 +5,8 @@
 * http-network : [그림으로 배우는 http & network basic]
 * jpa : [자바 ORM 표준 JPA 프로그래밍]
 * modern-java-in-action : [모던 자바 인 액션]
-* spring : [스프링 5 레시피]
-* spring-4.0 : [스프링 4.0 프로그래밍]
+* spring5 : [스프링 5 레시피]
+* spring-mvc : [배워서 바로 쓰는 스프링 프레임워크]
 * javascript/core : [코어 자바스크립트]
 
 ---
