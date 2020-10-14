@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul> 
+        <li>JAVASCRIPT</li>
+        <li>JAVA</li>
+        <li>PYTHON</li>
+    </ul>
+</body>
+<script>
+    
+    const list = document.querySelectorAll("li");
+
+        for(let i=0;i<list.length;i++){ // var 와 let
+            console.log(i)
+            list[i].addEventListener("click",function(){
+                console.log(i+"번째 리스트 입니다.")
+        })
+    }
+
+    // var list = document.querySelectorAll("li");
+    //     for(let i=0;i<list.length;i++){
+    //         list[i].addEventListener("click",function(){
+    //             console.log(i+"번째 리스트 입니다.")
+    //         })
+    // }
+   
+    const countFun = (function() {
+        let count = 0;
+        console.log("init count >> ", count)
+
+        return function() {
+          return ++count;
+        };
+    })();
+  
+  console.log(countFun()); // 1
+  console.log(countFun()); // 2
+  console.log(countFun()); // 3
+  
+</script>
+</html>

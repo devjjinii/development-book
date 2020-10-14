@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body>
+        <button type="button" id="btnClick">click</button>
+        <div id="active" style="display:none">Hello World</div>
+</body>
+<script>
+  
+let showAndHide = (function () {
+    let status = true;
+    console.log('init status >> ', status);
+
+    return function () {
+        if (status) {
+            document.getElementById('active').style.display="block";
+            console.log('if')
+        } else {
+            document.getElementById('active').style.display="none";
+            console.log('else')
+        }
+        
+        status = !status;   // return 
+        console.log('closure status >> ', status)
+    }
+
+  })();  // 즉시실행함수 ( 밑의 함수를 실행 )
+
+//showAndHide 는 클로저에의해 바뀐 status 값을 기억
+document.getElementById('btnClick').addEventListener('click', showAndHide);
+
+
+</script>
+</html>
