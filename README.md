@@ -2,6 +2,7 @@
 
 
 * docker : [시작하세요! 도커/쿠버네티스]
+* effective-java-3e : [이펙티브 자바 3판]
 * elastic-search : [엘라스틱서치 실무 가이드]
 * http-network : [그림으로 배우는 http & network basic]
 * jpa : [자바 ORM 표준 JPA 프로그래밍]
