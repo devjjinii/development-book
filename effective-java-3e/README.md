@@ -12,3 +12,4 @@
 
 ---
 #### `[3장] 모든 객체의 공통 메서드`
+[item 10] [equals는 일반 규약을 지켜 재정의하라](https://github.com/devjjinii/development-book/blob/master/effective-java-3e/%5B3%EC%9E%A5%5D%20%EB%AA%A8%EB%93%A0%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EA%B3%B5%ED%86%B5%20%EB%A9%94%EC%84%9C%EB%93%9C/item10.md)<br>
